@@ -73,3 +73,17 @@ ELEMENTOELIMINADO=C.pop(2)
 print("Arreglo C:", C)
 print("El elemento eliminado es:",ELEMENTOELIMINADO)
 print("-"*30) #SEPARADOR PARA MEJOR VISUALIZACIÓN
+
+'''CONCATENACION: UNIR, JUNTAR O ENLAZAR DOS ELEMENTOS.'''
+F= A + B
+print("La union de dos arreglos:",F)
+print("-"*30) #SEPARADOR PARA MEJOR VISUALIZACIÓN
+
+'''ITERACION: REPETIR UN PROCESO (BUCLE)'''
+for elementos in C:
+    print(elementos)
+    print("-"*30) #SEPARADOR PARA MEJOR VISUALIZACIÓN
+
+'''Iteracion por indice'''
+for i in range(len(B)):
+    print(f"Indice {i}: {B[i]}")
